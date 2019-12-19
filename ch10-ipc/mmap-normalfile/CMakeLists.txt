@@ -1,0 +1,2 @@
+add_executable(map_normalfile1 map_normalfile1.c)
+add_executable(map_normalfile2 map_normalfile2.c)

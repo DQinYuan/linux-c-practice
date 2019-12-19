@@ -1,0 +1,2 @@
+add_executable(send_data_signo send_data_signo.c)
+add_executable(recv_data_signo recv_data_signo.c)

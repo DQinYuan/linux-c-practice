@@ -1,0 +1,11 @@
+add_executable(my_signal my_signal.c)
+add_executable(my_sigaction my_sigaction.c)
+add_executable(wrong_return wrong_return.c)
+add_executable(right_return right_return.c)
+add_executable(simulate_ping simulate_ping.c)
+add_executable(test_setitimer test_setitimer.c)
+add_executable(sig_mask sig_mask.c)
+add_executable(sig_suspend sig_suspend.c)
+
+add_subdirectory(datasend/)
+add_subdirectory(eventnofify/)

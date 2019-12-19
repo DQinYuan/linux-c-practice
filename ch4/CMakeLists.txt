@@ -1,0 +1,7 @@
+add_executable(function-pointer function-pointer.c)
+add_executable(function-pointer2 function-pointer2.c)
+add_executable(function-pointer3 function-pointer3.c)
+add_executable(gets gets.c)
+add_executable(puts puts.c)
+add_executable(strncpy strncpy.c)
+add_executable(strstrchr strstrchr.c)

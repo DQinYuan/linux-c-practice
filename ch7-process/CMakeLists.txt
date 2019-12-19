@@ -1,0 +1,6 @@
+add_executable(diffork diffork.c)
+add_executable(daemon daemon.c)
+add_executable(env env.c)
+add_executable(wait wait.c)
+add_executable(mynice mynice.c)
+add_executable(myshell myshell.c)

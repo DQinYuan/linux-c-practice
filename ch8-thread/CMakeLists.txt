@@ -1,0 +1,11 @@
+add_executable(oncerun oncerun.c)
+add_executable(cleanup cleanup.c)
+add_executable(tsd tsd.c)
+add_executable(condition condition.c)
+add_executable(checkerrno checkerrno.c)
+add_executable(errshow errshow.c)
+
+target_link_libraries(oncerun pthread)
+target_link_libraries(cleanup pthread)
+target_link_libraries(tsd pthread)
+target_link_libraries(condition pthread)
